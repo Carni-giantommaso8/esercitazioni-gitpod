@@ -1,0 +1,22 @@
+1. cambia il titolo
+2. lo scrive in modo piu piccolo considerandolo come un titolo secondario
+3. aggiunge una stringa di testo in base a dove lo posizioni
+4. i tag html sono utilizzati per strutturare un progetto seguendo un ordine specifico
+5. sono utilizzati entrambi come tag per fare un titolo nella nostra pagina html
+6. aggiunge una stringa di testo in base a dove lo posizioni
+7. serve per aprire un altra pagina grazie ad un collegamento
+8. il file me.html contiene <!DOCTYPE html> ; <head> ; <link> ; <body> ; <h2> ; e la pagina arancione viene visualizzata essendo funzionante
+9. l'ho scritto nel css e ho messo il collegamento nella pagina in questione
+10. a collegare e mettere in comunicazione le varie pagine html,css,js ecc...
+11. ho trasformato lo sfondo da arancione a giallo
+12. ho sostituito il body con l' h2 nello style.css
+13. proviene dal file esercitazione.html e lo possiamo trovare nel tag h2
+14. ho cambiato il testo nell h2 del file esercitazione.html
+15. si posso vedere la scritta ciao, mettere lo stesso script che ho usato nel file esercitazione.html 
+16. mi fa comparire un allert appena apro la pagina, lo posso vedere in alto al centro
+17. console. log() è un messaggio a livello di info, mentre alert() fa comparire un popup appena apri la pagina
+18. è un linguaggio di programmazione e viene utilizzato per realiuzzare pagine web interattive
+19. metti uno script nella pagina html che vuoi collegare 
+20. serve per strutturare il contenuto di una pagina web
+21. serve per gestisce il design e la presentazione delle pagine web
+22. è utilizzato nell'ambito web per la creazione di effetti dinamici interattivi
