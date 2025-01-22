@@ -1,0 +1,5 @@
+1. è una rappresentazione strutturata di una pagina web creata dal browser
+2. il DOM consiste in una struttura gerarchica ad albero di oggetti
+3. Il DOM è lo strumento che permette a JavaScript di trasformare pagine web statiche in
+ esperienze interattive e dinamiche. È come avere un set di strumenti per costruire e modificare
+  le pagine web a tuo piacimento.

@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+h2 {
+    border: 1px solid black;
+    padding: 10px;
+    font-style:italic;
+}
+
+h2:hover {
+    background-color: blue;
+    font-style:initial;
+}

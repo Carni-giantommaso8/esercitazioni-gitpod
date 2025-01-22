@@ -1,0 +1,57 @@
+h1 { 
+    color : orange; 
+    font-style: oblique;
+
+}
+
+#bottone1 { 
+    border-radius: 20px;
+    border-color: orange ;
+    border: 3px solid orange;
+    width: 300px;
+    height: 75px;
+    color: orange;
+    background-color: white;
+    font-size: 30px;
+    margin-top: 60px;
+    font-style: oblique;
+    
+}
+
+#bottone2 { 
+    border-radius: 20px;
+    border-color: rgb(103, 213, 101);
+    border: 3px solid green;
+    width: 300px;
+    height: 75px;
+    color: rgb(64, 160, 91);
+    background-color: rgb(153, 249, 155);
+    font-size: 30px;
+    font-style: oblique;
+
+}
+
+#bottone3 { 
+    border-radius: 20px;
+    border-color: rgb(255, 146, 146);
+    border: 3px solid red;
+    width: 300px;
+    height: 75px;
+    color: red;
+    background-color: rgb(255, 147, 141);
+    font-size: 30px;
+    font-style: oblique;
+}
+
+#canvas {
+    margin-left: 700px;
+    border-radius: 15px;
+    
+}
+
+#testo { 
+    text-align: center;
+    color :rgb(87, 151, 191); 
+    font-size: 35px;
+    
+}

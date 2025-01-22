@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ingredienti della Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Ciao Sono una Pizza</h1>
+    <h1>Ecco i miei ingredienti</h1>
+
+    <div id="ingredients-box">
+        <h2>Impasto</h2>
+        <div id="ingredients">
+            <button class="ingredient1" onclick="showImage('pomodoro.jpg', 'pomodoro.html')">Pomodoro</button>
+
+            <button class="ingredient2" onclick="showImage('mozzarella.jpg', 'mozzarella.html')">Mozzarella</button>
+            
+        </div>
+    </div>
+    
+    <div id="cavallette-box">
+        <button id="cavallette-button" onclick="showImage('cavallette.jpg', 'cavallette.html')">Cavallette</button>
+    </div>
+
+    <div id="image-container">
+        <img id="ingredient-image" src="pomodoro.jpg" alt="Immagine dell'ingrediente selezionato">
+        
+    </div>
+</body>
+</html>

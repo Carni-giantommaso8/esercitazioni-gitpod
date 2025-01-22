@@ -1,0 +1,40 @@
+let stato = 0;
+
+        function handleButtonClick() {
+            const button = document.getElementById('actionButton');
+            const message = document.getElementById('message');
+            const canvas = document.getElementById('drawingCanvas');
+            const ctx = canvas.getContext('2d');
+
+            if (stato === 0) {
+                message.textContent = 'PEPPERPEPE';
+                button.textContent = 'Nuova sorpresa';
+                stato = 1;
+            } else if (stato === 1) {
+                alert('TADAAAA!');
+                button.textContent = 'E ora un bel disegno';
+                stato = 2;
+            } else if (stato === 2) {
+                canvas.classList.remove('hidden');
+                ctx.fillStyle = 'brown';
+                ctx.fillRect(40, 50, 200, 200);
+
+                ctx.strokeStyle = 'yellow';
+                ctx.lineWidth = 10;
+                ctx.setLineDash([10, 10]);
+                ctx.beginPath();
+                ctx.moveTo(50, 150);
+                ctx.lineTo(250, 150);
+                ctx.stroke();
+
+                button.textContent = 'Torna a capo';
+                stato = 3;
+
+            } else {
+                message.textContent = '';
+                canvas.classList.add('hidden');
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                button.textContent = 'Testo a sorpresa';
+                stato = 0;
+            }
+        }

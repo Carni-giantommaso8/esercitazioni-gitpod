@@ -1,0 +1,7 @@
+function Triangolo() {
+    
+}
+
+function Rombo() {
+
+}

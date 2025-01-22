@@ -1,0 +1,16 @@
+body { 
+    background-color : darkorange;
+    color : ghostwhite;
+    
+   }
+h1 { 
+    color : ghostwhite;
+    
+}
+a { 
+    color : ghostwhite;
+    
+}
+.hidden {
+    display: none;
+}
